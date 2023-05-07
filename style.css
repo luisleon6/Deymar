@@ -2,7 +2,7 @@
 
 
 :root{
-    --salmon: #4C88A9;
+    --salmon: #F3F6F7;
     --cream: #1d1c1b;
 }
 
@@ -312,7 +312,6 @@ body{
     margin-bottom: 1rem;
     text-transform: uppercase;
     color: transparent;
-    -webkit-text-stroke: 0.1vw #1d1c1b;
     width: fit-content;
 
   }
@@ -325,7 +324,6 @@ body{
     width: 0;
     height: 100%;
     color: rgba(240, 240, 240, 0.95);
-    -webkit-text-stroke: 0.1vw #1d1c1b;
     border-right: 2px solid rgba(240, 240, 240, 0.95);
     overflow: hidden;
     animation: animate 2s linear infinite;
