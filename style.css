@@ -100,7 +100,7 @@ body{
 li{
   list-style: none;
 }
-a:hover{
+.navbar a:hover{
   color: orange;
 }
 
