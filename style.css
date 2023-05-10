@@ -583,6 +583,22 @@ header{
   .footer .letter p{
     font-size: 2rem;
   }
+  .footer .footend{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .brand{
+    width: 100%;
+    text-align: start;
+    color:#D1CAB6;
+    font-size: 2rem;
+    padding:1rem 0;
+    margin:1rem 0;
+    margin-bottom: 0;
+    border-top: .1rem solid #D1CAB6;
+    letter-spacing: 1rem;
+    
+  }
   
   .footer .credit{
     width: 100%;
@@ -596,8 +612,10 @@ header{
     letter-spacing: .2rem;
   }
   
-  .footer .credit span{
+  .footer .credit a{
     color:var(--salmon);
+    text-decoration: none;
+    cursor: pointer;
   }
 
 /*          Media Queries   (Lo que lo hace responsive)             */
