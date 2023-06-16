@@ -374,7 +374,7 @@ header{
     color: rgba(240, 240, 240, 0.95);
     border-right: 2px solid rgba(240, 240, 240, 0.95);
     overflow: hidden;
-    animation: animate 2s linear infinite;
+    animation: animate 3s linear infinite;
   }
   
   @keyframes animate {
@@ -390,7 +390,7 @@ header{
   }
 
 .about{
-    min-height: 75vh; 
+    min-height: 10vh; 
     padding-bottom: 0rem;
     margin-bottom: 0rem;
 }
@@ -443,7 +443,7 @@ header{
 }
 
 .project{
-    min-height: 100vh;
+    min-height: 10vh;
     background:var(--cream);
 }
 
@@ -544,7 +544,28 @@ header{
   .contact .form-container form input[type="submit"]:hover{
     opacity:.8;
   }
-  
+  .privacyh1{
+      margin-top: 5rem;
+      font-size: 6rem;
+      color: wheat;
+      text-align: center;
+      margin-bottom: 3rem;
+  }
+
+  .privacyh3{
+    margin-left: 6rem;
+    color: wheat;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .privacy_info{
+    font-size: 2rem;
+    color: gainsboro;
+    margin-bottom: 3.5rem;
+    margin-left: 4rem;
+  }
+
   .footer{
     background:var(--cream);
     text-align: center;
@@ -634,12 +655,18 @@ header{
   .dropdown_menu{
     display: block;
   }
+  .text-slide h2{
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 576px){
   .dropdown_menu{
     left: 2rem;
     width: unset;
+  }
+  .text-slide h2{
+    font-size: 3rem;
   }
 
 }

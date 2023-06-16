@@ -7,7 +7,7 @@ function nextSlide() {
   slides[currentSlide].className = 'text-slide active';
 }
 
-setInterval(nextSlide, 2000); // Change the slide every 2 seconds
+setInterval(nextSlide, 3000); // Change the slide every 3 seconds
 
 const toggleBtn = document.querySelector('.toggle_btn')
 const toggleBtnIcon = document.querySelector('.toggle_btn i')
