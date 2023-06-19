@@ -122,7 +122,6 @@ header{
 .navbar a img{
   position: relative;
   color: #F3F6F7;
-  top: -1rem;
   padding: 0rem 1.5rem;
   font-size: 2rem;
   text-decoration: none;
@@ -158,6 +157,13 @@ header{
 }
 
 /*---------- Drop down menu ----------- */
+.dropdown_logo{
+  height: 40px;
+  position: absolute;
+  left: 3rem;
+  top: 2.5rem;
+  display: none;
+}
 .dropdown_menu{
   display: none;
   position: absolute;
@@ -653,6 +659,9 @@ header{
     display: block;
   }
   .dropdown_menu{
+    display: block;
+  }
+  .dropdown_logo{
     display: block;
   }
   .text-slide h2{
