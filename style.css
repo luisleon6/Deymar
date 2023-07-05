@@ -462,7 +462,7 @@ header{
 .carousel-item img{
   object-fit: cover;
   opacity: 0.6;
-  height: 60vh;
+  height: 80vh;
 }
   
 .carousel-item .carousel-item-header{
@@ -674,6 +674,9 @@ header{
   }
   .text-slide h2{
     font-size: 3rem;
+  }
+  .carousel-item img{
+    height: 60vh;
   }
 }
 
