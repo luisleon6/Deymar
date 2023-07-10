@@ -685,6 +685,13 @@ header{
   .carousel-item img{
     height: 60vh;
   }
+  .carousel-item .carousel-item-header{
+    font-size: small;
+  }
+  
+  .carousel-item .carousel-item-text{
+    font-size: x-small;
+  }
 }
 
 @media (max-width: 576px){
