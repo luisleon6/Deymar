@@ -4,7 +4,7 @@
 
 :root{
     --salmon: #F3F6F7;
-    --cream: #1d1c1b;
+    --cream: #000;
 }
 
 *{
@@ -366,34 +366,38 @@ header{
     font-size: 6rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    padding-right: .5rem;
     text-transform: uppercase;
     color: transparent;
-    width: fit-content;
-
   }
-  
+
+
   .text-slide h2::before {
     content: attr(data-text);
     position: absolute;
     top: 0;
     left: 0;
     width: 0;
+    padding-right: .5rem;
     height: 100%;
     color: rgba(240, 240, 240, 0.95);
     border-right: 2px solid rgba(240, 240, 240, 0.95);
     overflow: hidden;
     animation: animate 3s linear infinite;
   }
+
   
   @keyframes animate {
     0%,
     10%,
     100% {
       width: 0;
+      padding-right: 0;
     }
-    70%, 
+    73%, 
     90% {
       width: 100%;
+      padding-right: 3rem;
     }
   }
 
@@ -464,6 +468,11 @@ header{
   opacity: 0.6;
   height: 80vh;
 }
+
+.carousel-item.active img{
+  scale: 1.2;
+  transition: scale 4s ease-in-out;
+}
   
 .carousel-item .carousel-item-header{
   font-size: xx-large;
@@ -473,8 +482,6 @@ header{
 .carousel-item .carousel-item-text{
   font-size: large;
   color: #D1CBC7;
-  background: rgba(255,255, 255, 0.2);
-  border-radius: 1.5rem;
 }
 
 
@@ -494,17 +501,17 @@ header{
     text-align: center;
     border-radius: .5rem;
     padding-top: 4rem;
-    background: #4A4745;
+    background: var(--salmon);
 }
 
 .contact-box-container .contact-box i{
-    color: var(--salmon);
+    color: var(--cream);
     font-size: 4rem;
 }
 
 .contact-box-container .contact-box h3{
     font-size: 1.8rem;
-    color: #D1CAB6;
+    color: var(--cream);
     margin: 2rem 0;
 }
 
